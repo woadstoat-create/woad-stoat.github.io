@@ -50,7 +50,7 @@ const SITE_DATA = {
     ],
 
     location: "Edinburgh, Scotland",
-    email: "woadstoatstudios@gmail.com",
+    email: "woadstoat@gmail.com",
     phone: "07340 980 540",
     linkedin: "https://www.linkedin.com/in/calummathison/",
     github: "https://github.com/woadstoat-create",
