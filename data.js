@@ -144,14 +144,16 @@ const SITE_DATA = {
         tag: "AI",
         description: "A Discord & Twitter (X) bot that uses OpenAI's GPT-4 to generate responses to user prompts.",
         image: "DiscordBot.png",
-        link: "https://github.com/WoadStoatStudio/DiscordBot"
+        link: "https://github.com/WoadStoatStudio/DiscordBot",
+        linkLabel: "View on GitHub"
     },
     {
         title: "AI-integrated Assistant and Chatbot",
         tag: "AI",
         description: "An AI assistant dashboard and chatbot that utilising OpenAI, Anthropic and X API's.",
         image: "Ophelia.jpg",
-        link: "https://github.com/woadstoat-create/Ophellia"
+        link: "https://github.com/woadstoat-create/Ophellia",
+        linkLabel: "View on GitHub"
     }
   ]
 };
