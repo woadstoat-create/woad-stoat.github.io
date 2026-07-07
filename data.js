@@ -150,7 +150,7 @@ const SITE_DATA = {
         title: "AI-integrated Assistant and Chatbot",
         tag: "AI",
         description: "An AI assistant dashboard and chatbot that utilising OpenAI, Anthropic and X API's.",
-        image: "Ophelia.png",
+        image: "Ophelia.PNG",
         link: "https://github.com/woadstoat-create/Ophellia"
     }
   ]
