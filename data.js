@@ -105,7 +105,7 @@ const SITE_DATA = {
         description: "Advanced Games Engineering project implementing Craig Reynolds' flocking simulation algorithm in both 2D and 3D.",
         image: "BoidsScreenshot.png",
         link: "",
-        linkLabel: ""
+        linkLabel: "View on GitHub"
     },
     {
         title: "Raptor Rush",
