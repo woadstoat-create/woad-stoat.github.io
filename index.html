@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Calum Mathison — Game Developer &amp; Technical Designer</title>
+<meta name="description" content="Portfolio and CV of Calum Mathison — Game Developer, Technical Designer, and Programmer.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===================== NAV ===================== -->
+<header class="nav" id="top">
+  <a class="nav__logo" href="#top">
+    <span class="bracket">[</span>CM<span class="bracket">]</span>
+  </a>
+  <nav class="nav__links">
+    <a href="#work">// Work</a>
+    <a href="#about">// About</a>
+    <a href="#contact">// Contact</a>
+  </nav>
+  <a class="nav__resume" id="nav-resume" href="#" target="_blank" rel="noopener">
+    <svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path d="M8 1v9m0 0L4.5 6.5M8 10l3.5-3.5M2 12v2a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1v-2" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    Resume
+  </a>
+  <button class="nav__toggle" id="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<!-- ===================== HERO ===================== -->
+<section class="hero">
+  <canvas class="hero__canvas" id="boids-canvas" aria-hidden="true"></canvas>
+  <div class="hero__grid-overlay" aria-hidden="true"></div>
+
+  <div class="hero__inner frame">
+    <p class="eyebrow">// portfolio.init()</p>
+    <h1 class="hero__name" id="hero-name">Calum Mathison</h1>
+    <p class="hero__roles" id="hero-roles"></p>
+    <p class="hero__tagline" id="hero-tagline"></p>
+    <div class="hero__cta">
+      <a href="#work" class="btn btn--primary">View Work</a>
+      <a href="#contact" class="btn btn--ghost">Get In Touch</a>
+    </div>
+  </div>
+
+  <a href="#work" class="hero__scroll" aria-label="Scroll to work section">
+    <span>scroll</span>
+    <svg viewBox="0 0 12 20" width="12" height="20"><path d="M6 1v16m0 0L2 13m4 4l4-4" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </a>
+</section>
+
+<!-- ===================== WORK ===================== -->
+<section class="section" id="work">
+  <div class="section__header frame">
+    <p class="eyebrow">// 01 — selected-work.list()</p>
+    <h2>Projects</h2>
+    <p class="section__sub">Shipped titles, academic research, game jams, and tools — spanning six years of programming and design.</p>
+  </div>
+
+  <div class="filters" id="filters"></div>
+
+  <div class="project-grid" id="project-grid"></div>
+</section>
+
+<!-- ===================== ABOUT ===================== -->
+<section class="section section--about" id="about">
+  <div class="about__inner">
+    <div class="about__photo-wrap frame">
+      <img id="about-photo" class="about__photo" src="" alt="Portrait of Calum Mathison">
+    </div>
+    <div class="about__content">
+      <p class="eyebrow">// 02 — about.read()</p>
+      <h2>About</h2>
+      <p class="about__bio" id="about-bio"></p>
+
+      <h3 class="about__skills-title">// stack.list()</h3>
+      <ul class="skills" id="skills-list"></ul>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== CONTACT ===================== -->
+<section class="section section--contact" id="contact">
+  <div class="section__header frame">
+    <p class="eyebrow">// 03 — contact.open()</p>
+    <h2>Get In Touch</h2>
+    <p class="section__sub">Open to Technical Design, Gameplay Programming, and Tools Programming roles.</p>
+  </div>
+
+  <div class="contact-grid" id="contact-grid"></div>
+</section>
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="footer">
+  <p>&copy; <span id="footer-year"></span> Calum Mathison</p>
+  <a href="#top" class="footer__top">Back to top ↑</a>
+</footer>
+
+<script src="data.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
