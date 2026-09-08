@@ -70,7 +70,7 @@ const SITE_DATA = {
     {
         title: "Vaulthammer.co.uk",
         tag: "Website",
-        description: "A storefront website developed and managed by myself for a local hobby and tabletop business.",
+        description: "VaultHammer Gaming — full-stack club website · Node.js, Express, SQLite. Production website for a tabletop gaming venue: capacity-aware table booking, tournament management with Swiss and elimination pairing algorithms, role-based accounts and a staff admin panel. Deployed to production with a custom domain, transactional email and automated backups for a real client.",
         image: "vaulthammer.png",
         link: "https://vaulthammer.co.uk/",
         linkLabel: "View Live"
