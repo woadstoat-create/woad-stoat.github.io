@@ -68,6 +68,14 @@ const SITE_DATA = {
         linkLabel: "View on Steam"
     },
     {
+        title: "Vaulthammer.co.uk",
+        tag: "Website",
+        description: "A storefront website developed and managed by myself for a local hobby and tabletop business.",
+        image: "vaulthammer.png",
+        link: "https://vaulthammer.co.uk/",
+        linkLabel: "View Live"
+    },
+    {
         title: "L-System Dungeons",
         tag: "Academic",
         description: "Dissertation project using Lindenmayer systems to generate procedural 2D dungeons.",
