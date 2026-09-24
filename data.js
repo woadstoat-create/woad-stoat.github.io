@@ -76,6 +76,14 @@ const SITE_DATA = {
         linkLabel: "View Live"
     },
     {
+        title: "ISS Tracking App",
+        tag: "Academic",
+        description: "A simple C# WPF app that tracks and displays the position of the International Space Station, using Open Notify API.",
+        image: "ISS_APP.png",
+        link: "https://github.com/woadstoat-create/ISS-Tracker",
+        linkLabel: "View on GitHub"
+    },
+    {
         title: "L-System Dungeons",
         tag: "Academic",
         description: "Dissertation project using Lindenmayer systems to generate procedural 2D dungeons.",
